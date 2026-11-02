@@ -1,0 +1,34 @@
+[
+  {
+    "id": "travel-policy",
+    "title": "Business Travel Policy",
+    "category": "travel",
+    "effective_date": "2026-01-01",
+    "related_doc_ids": ["expense-reimbursement", "remote-work"],
+    "content": "Employees need written manager approval before booking business travel. Book economy-class transportation unless an exception is approved in writing. Choose reasonable lodging close to the business destination. Keep itemized receipts for eligible travel expenses. Submit the expense report within 30 calendar days after the trip ends. Personal sightseeing, minibar purchases, and costs for accompanying guests are not reimbursable."
+  },
+  {
+    "id": "expense-reimbursement",
+    "title": "Expense Reimbursement Policy",
+    "category": "finance",
+    "effective_date": "2026-01-01",
+    "related_doc_ids": ["travel-policy"],
+    "content": "Only reasonable expenses incurred for approved company business are eligible for reimbursement. Submit expenses through the company expense portal within 30 calendar days of the expense. Attach an itemized receipt for each expense greater than 25 US dollars. A bank statement or card receipt without item details is not an itemized receipt. The employee's manager must approve the report. Personal purchases, fines, and alcohol are not reimbursable. If a receipt is lost, add a written explanation and ask the manager whether the expense can be reviewed as an exception."
+  },
+  {
+    "id": "remote-work",
+    "title": "Remote Work and Device Security",
+    "category": "security",
+    "effective_date": "2026-02-01",
+    "related_doc_ids": ["security-incident"],
+    "content": "Access company systems only from an approved, up-to-date device with multi-factor authentication enabled. Connect through the company VPN when using a network outside the office. Do not send company files to personal email or copy them to unapproved storage. Lock your screen when stepping away. Report a suspected loss of a company device or exposure of company information promptly using the security incident process."
+  },
+  {
+    "id": "security-incident",
+    "title": "Security Incident Reporting",
+    "category": "security",
+    "effective_date": "2026-02-01",
+    "related_doc_ids": ["remote-work"],
+    "content": "Report suspected phishing, lost devices, unexpected authentication prompts, or possible exposure of company information to the security team as soon as possible using the internal security reporting channel. Include what happened, when it happened, and which company account or device may be affected. Do not forward suspicious attachments or attempt to investigate by opening them. Preserve relevant messages and follow the security team's instructions. If you entered your password on a suspicious page, report that immediately so the account can be protected."
+  }
+]
